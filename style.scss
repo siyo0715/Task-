@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    font-family:fantasy;
+}
+body {
+ background-color:coral;
+}
+
+a {
+    text-decoration:none; 
+}
+
+.header{
+    color:darkgoldenrod;
+    text-decoration: underline 2px dashed rgb(196, 64, 191);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: rgba(161, 214, 161, 0.74);
+    border: 3px solid rgb(218, 137, 112);
+}
+.data-input {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+    background-color: black;
+    display: flex;
+    border-left: 3px solid palevioletred;
+    border-right: 3px solid palevioletred;
+}
+
+table {
+    width: 100%;
+    margin: 0 auto;
+    background-color: gold;
+    border: 3px rgb(188, 112, 218) solid ;
+  }
+  th {
+    background-color: skyblue;
+    color: brown;
+    border: 2px rgb(218, 137, 112) solid ;
+  }
+  td {
+    background-color: cadetblue;
+    color: rgba(0, 0, 0, 0.603);
+    word-break: break-all;
+    border: 2px rgb(218, 112, 200) solid ;
+  }

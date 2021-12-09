@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This site test site.">
+    <title>Task!</title>
+</head>
+<body>
+  <div class="container">
+    <a href="index.html">
+      <h1 class="header">Task!!</h1>
+    </a>
+    <div class="task-index">
+      <div class="data-input">
+        <input type="date" id="add_date" />
+        <input type="text" id="add_text" placeholder="予定を入力" />
+        <input type="button" id="add_button" value="追加" />
+      </div>
+
+      <table>
+          <thead class="table">
+            <th>日付</th>
+            <th>予定</th>
+            <th>削除</th>
+          </thead>
+          <tbody id="table_body">
+          </tbody>
+      </table>
+    </div>
+  </div>
+<script src="main.js"></script>
+</body>
+</html>

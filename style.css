@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  font-family: fantasy;
+}
+
+body {
+  background-color: coral;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  color: darkgoldenrod;
+  -webkit-text-decoration: underline 2px dashed #c440bf;
+          text-decoration: underline 2px dashed #c440bf;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: rgba(161, 214, 161, 0.74);
+  border: 3px solid #da8970;
+}
+
+.data-input {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-left: 3px solid palevioletred;
+  border-right: 3px solid palevioletred;
+}
+
+table {
+  width: 100%;
+  margin: 0 auto;
+  background-color: gold;
+  border: 3px #bc70da solid;
+}
+
+th {
+  background-color: skyblue;
+  color: brown;
+  border: 2px #da8970 solid;
+}
+
+td {
+  background-color: cadetblue;
+  color: rgba(0, 0, 0, 0.603);
+  word-break: break-all;
+  border: 2px #da70c8 solid;
+}
+/*# sourceMappingURL=style.css.map */
