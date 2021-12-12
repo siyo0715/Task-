@@ -26,7 +26,7 @@ const addClick = () => {
     removeButton.setAttribute("type", "button");
     removeButton.value = "remove";
     removeButton.onclick = removeClick;
-
+    
     // TDの中身を設定
     dateTd.innerText = document.getElementById("add_date").value;
     contentTd.innerText = document.getElementById("add_text").value;
@@ -40,6 +40,6 @@ const addClick = () => {
     document.getElementById("table_body").appendChild(newRow);
 }
 
-window.onload = () => {
-    document.getElementById("add_button").onclick = addClick
+onload = () => {
+    document.getElementById("add_button").onclick = addClick;
 }
