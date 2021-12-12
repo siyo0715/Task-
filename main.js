@@ -10,21 +10,21 @@ const addClick = () => {
     }
 
     if (document.getElementById("add_text").value == "") {
-        alert("内容が設定されていません");
+        alert("予定が設定されていません");
         return;
     }
     // 行
     let newRow = document.createElement("tr");
     // 日付
     let dateTd = document.createElement("td");
-    // 内容
+    // 予定
     let contentTd = document.createElement("td");
     // 削除
     let removeTd = document.createElement("td");
     // 削除ボタン
     let removeButton = document.createElement("input");
     removeButton.setAttribute("type", "button");
-    removeButton.value = "remove";
+    removeButton.value = "削除";
     removeButton.onclick = removeClick;
     
     // TDの中身を設定
@@ -38,6 +38,8 @@ const addClick = () => {
     newRow.appendChild(removeTd);
 
     document.getElementById("table_body").appendChild(newRow);
+    document.getElementById("add_text").value = "";
+    document.getElementById("add_date").value = "";
 }
 
 onload = () => {
